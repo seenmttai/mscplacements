@@ -1,0 +1,13 @@
+# Environment & Sensitive Configs
+.env
+.env.local
+
+# Backend Automation Scripts & Keys
+backend/cloudflare-worker.js
+backend/google-apps-script.js
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
