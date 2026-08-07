@@ -34,7 +34,7 @@ This document provides step-by-step instructions for deploying `mscplacements.co
 2. Click **Extensions** → **Apps Script**.
 3. Clear any default code in `Code.gs`.
 4. Copy and paste the contents of `backend/google-apps-script.js`.
-5. Update `NOTIFICATION_EMAIL` at line 14 if different from `placements@mystudentclub.com`.
+5. Update `NOTIFICATION_EMAIL` at line 14 if different from `harshika@mscplacements.com`.
 6. Click **Deploy** → **New Deployment**.
 7. Click the gear icon next to "Select type" and choose **Web App**.
 8. Configure options:
@@ -71,7 +71,7 @@ This document provides step-by-step instructions for deploying `mscplacements.co
 - [x] `www` and non-`www` both resolve to main page
 - [x] Existing MX, SPF, DKIM, and DMARC DNS records verified intact
 - [x] Form submits successfully to Google Sheet
-- [x] Form sends HTML notification email to `placements@mystudentclub.com`
+- [x] Form sends HTML notification email to `harshika@mscplacements.com`
 - [x] Test submission completed and verified in Sheet
 - [x] Mobile layout checked on smartphone viewport
 - [x] Link preview checked via [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/) / WhatsApp link send
